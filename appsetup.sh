@@ -17,5 +17,10 @@ echo "INSTALLING ALL REQUIREMENTS"
 pip install -r requirements.txt
 echo ""
 echo ""
+echo "SETTING ENVIRONMENTAL VARIABLES"
+export RUNID=$(uuidgen)
+export PHRASE="I'm A Little TeaPot"
+echo ""
+echo ""
 echo "STARTING app.py"
 python app.py
