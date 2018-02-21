@@ -11,5 +11,11 @@ echo ""
 echo "CREATING NEW VIRTUAL ENVIRONMENT AT" $(pwd)
 virtualenv -p python3.5 venv
 source venv/bin/activate
-pip install requests
-pip install pytest
+echo ""
+echo ""
+echo "INSTALLING ALL REQUIREMENTS"
+pip install -r requirements.txt
+echo ""
+echo ""
+echo "STARTING app.py"
+python app.py
