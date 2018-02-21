@@ -22,4 +22,4 @@ def index():
     return s
 
 if __name__ == '__main__':
-    app.run(threaded=True, debug=True port=prt)
+    app.run(threaded=True, debug=True, port=prt)

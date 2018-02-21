@@ -24,3 +24,7 @@ echo ""
 echo ""
 echo "STARTING app.py"
 python app.py
+echo ""
+echo ""
+echo "REMOVING VIRTUAL ENVIRONMENT"
+sudo rm $RUNID -rf
