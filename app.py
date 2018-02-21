@@ -1,6 +1,9 @@
 #!flask/bin/python
 from flask import Flask
 import os
+import random
+
+prt = random.randint(4000,5001)
 
 app = Flask(__name__)
 
@@ -19,4 +22,4 @@ def index():
     return s
 
 if __name__ == '__main__':
-    app.run(threaded=True, debug=True)
+    app.run(threaded=True, debug=True port=prt)
